@@ -1,4 +1,4 @@
-requirements = """streamlit
+streamlit
 pandas
 numpy
 scikit-learn
@@ -6,9 +6,3 @@ plotly
 matplotlib
 seaborn
 wordcloud
-"""
-
-with open("requirements.txt", "w", encoding="utf-8") as f:
-    f.write(requirements)
-
-print("requirements.txt created!")
